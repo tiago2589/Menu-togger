@@ -1,0 +1,92 @@
+<html>
+    <head>
+
+        <title>MENU</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+            <style>
+                * {
+                    box-sizing: border-box;
+                    font-family: work sans;
+                }
+
+                body {
+                    margin: 0;
+                    background-color: lightgray;
+                }
+                .cabecalho{
+                    background-color: #333;
+                    border-bottom: 5px solid #4faddb;
+                    height: 80px;
+                    box-sizing: content-box;
+                }
+                .logo {
+                    display: inline-block;
+                    height: 80px;
+                    padding: 15px;
+                }
+                .logo img{
+                    height: 100%;
+                }
+                .menu-togger{
+                    float: right;
+                    color: #eee;
+                    background-color: #555;
+                    border: 1px solid #777;
+                    border-radius: 5px;
+                    height: 40px;
+                    padding: 10px 20px;
+                    margin: 20px 15px;
+                }
+                .menu{
+                    display: inline-block;
+                    vertical-align: top;
+                    height: 80px;
+                    padding: 25px;
+
+                }
+                .menu ul{
+                    margin: 0px;
+                    padding: 0px;
+                }
+                .menu li{
+                    display: inline-block;
+                }
+                .menu a{
+                    text-decoration: none;
+                    color: #eee;
+                    padding: 8px;
+                    font-size: 16px;
+                }
+
+        </style>
+    </head>
+        <body>
+        <header class="cabecalho">
+            <div class="logo">
+                <img src="Golmoney/hdcevents/public/img/php.jpg">
+            </div>
+            <button class="menu-togger">
+                <i class="fa fa-lg fa-bars"></i>
+            </button>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#">Cadastrar</a>
+                    </li>
+                </ul>
+           
+            </nav>
+        </header>
+    </body>
+</html>
