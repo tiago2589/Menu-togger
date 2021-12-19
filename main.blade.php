@@ -3,10 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <title>@yield('title') </title> 
-        
-        
         <!--Fonte do Google -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
@@ -17,7 +14,6 @@
         <!-- INCONES DO SITE Ionicons AULA 09-->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src="/js/scripts.js"></script>
     </head>
@@ -73,19 +69,5 @@
                     newLink && newLink.classList.add('selected')
                 }
             </script> -->
-        <main>
-            <div class="container-fluid">
-                <div class="row">
-                    @if(session('msg'))
-                    <p class="msg"> {{ session('msg') }} </p>
-                    @endif
-                </div>
-            </div>
-        </main>
-        <!-- RODAPE -->
-        @yield('content')<!-- EXTENDE PARA OUTRA PAGINA -->
-        <footer>
-            <p>GOLMONEY BOT &copy;2021</p>
-        </footer>
-    </body>
+   </body>
 </html>
